@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:id="@+id/headlineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="News Feed"
+            android:textColor="@color/colorAccent"
+            android:textSize="50dp"
+            android:layout_margin="30dp"/>
+
+        <Button android:id="@+id/galleryButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="go to gallery"
+            android:background="@null"
+            android:textColor="@android:color/white"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/good_news1"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvOverlayText1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal"
+                android:text="image"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:layout_margin="15dp"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivBackground2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/good_news2"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvOverlayText2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal"
+                android:text="image"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:layout_margin="15dp"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivBackground3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/good_news3"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvOverlayText3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal"
+                android:text="image"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:layout_margin="15dp"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivBackground4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/good_news4"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvOverlayText4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal"
+                android:text="image"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:layout_margin="15dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivBackground5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/good_news5"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvOverlayText5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal"
+                android:text="image"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:layout_margin="15dp"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivBackground6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/good_news6"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/tvOverlayText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="image"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp"
+                    android:layout_margin="15dp"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
